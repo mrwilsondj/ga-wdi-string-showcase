@@ -39,6 +39,8 @@ Student.delete_all
 Project.delete_all
 
 
+
+
 ## STUDENTS
 
 s_john_randall= Student.create({
@@ -50,6 +52,9 @@ s_john_randall= Student.create({
   portfolio_url: "http://code_portfolio/johnrandall.com",
   blurb: "john's blurb here" #text
   })
+
+
+
 
 
 
