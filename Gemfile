@@ -49,5 +49,5 @@ group :dev do
 end
 
 group :production do
-  gem 'rails12factor'
+  gem 'rails_12factor'
 end
