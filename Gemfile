@@ -47,3 +47,7 @@ end
 group :dev do
   gem 'annotate'
 end
+
+group :production do
+  gem 'rails12factor'
+end
