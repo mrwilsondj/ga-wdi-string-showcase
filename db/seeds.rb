@@ -10,7 +10,7 @@
 
 #### TEMPLATES
 
-# s_first_last= Student.create({
+# first_last= Student.create({
 #   name: "string of full name",
 #   github_url: "" ,
 #   linkedin_url: "",
@@ -43,7 +43,7 @@ Project.delete_all
 
 ## STUDENTS
 
-s_john_randall= Student.create({
+john_randall= Student.create({
   name: "John T. Randall",
   github_url: "http://github.com/johntrandall" ,
   linkedin_url: "http://linkedin.com/in/johntrandall",
@@ -53,6 +53,14 @@ s_john_randall= Student.create({
   blurb: "john's blurb here" #text
   })
 
+keyan_bagheri = Student.create({
+  name: "Keyan Bagheri",
+  twitter_username: "Empathy4Apathy",
+  github_url: "github.com/keyanbagheri",
+  linkedin_url: "linkedin.com/in/keyanbagheri",
+  homepage_url: "keyanbagheri.com",
+  blurb: "Full Metal Rubyist",
+  })
 
 s_david_montricher= Student.create({
   name: "David Montricher",
@@ -96,13 +104,14 @@ s_joe_park= Student.create({
 
 
 
+
 ## PROJECTS and student associations
 p_our_day= Project.create({
   name: "OurDay",
   blurb: "kid calendar FIX ME" #text
   })
 
-p_our_day.students << s_john_randall
+p_our_day.students << john_randall
 # p_name.students << s_jane_s
 # p_name.students << s_nelson_
 
