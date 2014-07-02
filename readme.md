@@ -3,7 +3,9 @@ This is a student showcase. We want to do something very similar to this one - h
 ### Admin
 * [Trello](https://trello.com/b/V78kKAW5/wdi-april-string-student-showcase)
 * [Github](https://github.com/johntrandall/ga-wdi-string-showcase)
-* [Site](URL TBD)
+* [Heroku](https://dashboard.heroku.com/apps/string-showcase/resources)
+* [Development Site](http://string-showcase.herokuapp.com/)
+* [Production Site](URL TBD)
 
 ### Git Workflow
 Please contribute. If you want to be added as a collaborator, please ask (john@johnrandall.com). We are using the git-flow process. (see http://nvie.com/posts/a-successful-git-branching-model/) 

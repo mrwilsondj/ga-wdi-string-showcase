@@ -81,5 +81,5 @@ test:
 production:
   <<: *default
   database: ga-wdi-string-showcase_production
-  username: ga-wdi-string-showcase
-  password: <%= ENV['GA-WDI-STRING-SHOWCASE_DATABASE_PASSWORD'] %>
+  username: johnrandall
+  # password: <%= ENV['GA-WDI-STRING-SHOWCASE_DATABASE_PASSWORD'] %>
