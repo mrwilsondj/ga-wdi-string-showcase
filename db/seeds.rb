@@ -87,7 +87,7 @@ s_dara_mao= Student.create({
 s_joe_park= Student.create({
   name: "Joe Park",
   github_url: "http://github.com/" ,
-  linkedin_url: "http://www.linkedin.com/profile/view?id=218540582"
+  linkedin_url: "http://www.linkedin.com/profile/view?id=218540582",
   twitter_username: "null",
   homepage_url: "http://www.joeinthepark.com",
   portfolio_url: "http://www.joeinthepark.com",
