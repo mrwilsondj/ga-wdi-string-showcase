@@ -1,17 +1,62 @@
-<h1>Pages#home</h1>
-<p>Find me in app/views/pages/home.html.erb</p>
+<style>
+  header, footer, div {
+    border: 2px black solid;
+    border-radius: 25px;
+    margin: 10px;
+    padding: 20px;
+  }
+</style>
+
+<div id="container">
+
+  <header>
+    <h1>Pages#home</h1>
+    <p>Find me in app/views/pages/home.html.erb</p>
+  </header>
 
 
+  <div>
+    <h1> snappy heading </h1>
 
-<h1> students </h1>
+      <h2> what we learned </h2>
 
-<% @students.each do |student| %>
-  <%= debug student %>
-<% end %>
+      <h2> about something or other </h2>
+
+      <div>we learned this
+      </div>
+
+      <div>we learned this
+      </div>
+
+      <div>we learned this
+      </div>
+
+      <div>we learned this
+      </div>
+
+  </div>
 
 
-<h1> featured projects </h1>
+  <div id="students">
+    <h2> students </h1>
 
-<% @featured_projects.each do |project| %>
-  <%= debug project %>
-<% end %>
+      <% @students.each do |student| %>
+        <%= debug student %>
+      <% end %>
+  </div>
+
+
+  <div id="projects">
+    <h2> featured projects </h1>
+
+      <% @featured_projects.each do |project| %>
+        <%= debug project %>
+      <% end %>
+  </div>
+
+
+  <footer>
+    <h2>footer here</h2>
+  </footer>
+
+</div>
