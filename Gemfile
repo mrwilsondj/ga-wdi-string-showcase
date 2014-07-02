@@ -38,16 +38,25 @@ gem 'jbuilder', '~> 2.0'
 # Use debugger
 # gem 'debugger', group: [:development, :test]
 
-group :dev, :test do
+
+gem 'httparty'
+
+group :development, :test do
   gem 'rspec'
   gem 'jasmine'
 
 end
 
-group :dev do
+group :development do
   gem 'annotate'
+  gem 'pry-rails'
+  gem 'awesome_print'
 end
 
 group :production do
   gem 'rails_12factor'
 end
+
+
+
+ruby "2.1.2"

@@ -3,7 +3,7 @@ class CreateStudents < ActiveRecord::Migration
     create_table :students do |t|
       t.string :name
       t.string :twitter_username
-      t.string :github_url
+      t.string :github_username
       t.string :linkedin_url
       t.string :homepage_url
       t.string :portfolio_url
