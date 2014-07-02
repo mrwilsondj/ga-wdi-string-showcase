@@ -102,6 +102,15 @@ s_joe_park= Student.create({
   blurb: "Joe's blurb here"
   })
 
+s_liz_goldstein= Student.create({
+  name: "Liz Goldstein",
+  github_url: "https://github.com/LizCira" ,
+  linkedin_url: "https://www.linkedin.com/pub/elizabeth-goldstein/99/207/458",
+  twitter_username: "null",
+  homepage_url: "http://www.cira.io",
+  portfolio_url: "http://www.cira.io",
+  blurb: "Liz's blurb here"
+  })
 
 
 
