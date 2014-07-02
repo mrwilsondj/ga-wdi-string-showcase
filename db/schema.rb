@@ -33,7 +33,7 @@ ActiveRecord::Schema.define(version: 20140702154458) do
   create_table "students", force: true do |t|
     t.string   "name"
     t.string   "twitter_username"
-    t.string   "github_url"
+    t.string   "github_username"
     t.string   "linkedin_url"
     t.string   "homepage_url"
     t.string   "portfolio_url"

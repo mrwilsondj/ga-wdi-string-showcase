@@ -62,6 +62,7 @@
 
       <% @students.each do |student| %>
         <%= debug student %>
+        <%= image_tag(student.headshot_url) %>
       <% end %>
   </div>
 

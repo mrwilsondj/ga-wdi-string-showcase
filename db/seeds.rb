@@ -12,7 +12,7 @@
 
 # first_last= Student.create({
 #   name: "string of full name",
-#   github_url: "" ,
+#   github_username: "" ,
 #   linkedin_url: "",
 #   twitter_url: "",
 #   homepage_url: "",
@@ -45,7 +45,7 @@ Project.delete_all
 
 john_randall= Student.create({
   name: "John T. Randall",
-  github_url: "http://github.com/johntrandall" ,
+  github_username: "johntrandall" ,
   linkedin_url: "http://linkedin.com/in/johntrandall",
   twitter_username: "@johnrandall",
   homepage_url: "http://johnrandall.com",
@@ -56,7 +56,7 @@ john_randall= Student.create({
 keyan_bagheri = Student.create({
   name: "Keyan Bagheri",
   twitter_username: "Empathy4Apathy",
-  github_url: "github.com/keyanbagheri",
+  github_username: "github.com/keyanbagheri",
   linkedin_url: "linkedin.com/in/keyanbagheri",
   homepage_url: "keyanbagheri.com",
   blurb: "Full Metal Rubyist",
@@ -64,7 +64,7 @@ keyan_bagheri = Student.create({
 
 s_david_montricher= Student.create({
   name: "David Montricher",
-  github_url: "http://github.com/montricher" ,
+  github_username: "montricher" ,
   linkedin_url: "http://linkedin.com/in/davidmontricher",
   twitter_username: "@deinonino",
   homepage_url: "http://www.montricher.com",
@@ -74,7 +74,7 @@ s_david_montricher= Student.create({
 
 s_joel_rosenblatt= Student.create({
   name: "Joel Rosenblatt",
-  github_url: "http://github.com/KLIMTHAUS" ,
+  github_username: "KLIMTHAUS" ,
   linkedin_url: "http://linkedin.com/profile/view?id=333503278",
   twitter_username: "null",
   homepage_url: "http://www.joelrs.com",
@@ -84,7 +84,7 @@ s_joel_rosenblatt= Student.create({
 
 s_dara_mao= Student.create({
   name: "Dara Mao",
-  github_url: "http://github.com/daramao" ,
+  github_username: "daramao" ,
   linkedin_url: "https://www.linkedin.com/profile/view?id=318128391",
   twitter_username: "null",
   homepage_url: "http://www.daramao.com",
@@ -94,7 +94,7 @@ s_dara_mao= Student.create({
 
 s_joe_park= Student.create({
   name: "Joe Park",
-  github_url: "http://github.com/" ,
+  github_username: "" ,
   linkedin_url: "http://www.linkedin.com/profile/view?id=218540582",
   twitter_username: "null",
   homepage_url: "http://www.joeinthepark.com",
