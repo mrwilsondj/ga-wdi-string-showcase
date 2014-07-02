@@ -1,4 +1,4 @@
-# If you want to be added to this website, fork this project, add a student model and project models to the seed file, and submit a pull request. 
+# If you want to be added to this website, fork this project, add a student model and project models to the seed file, and submit a pull request.
 
 # For now, app will use github headshots. This may change.
 
@@ -53,7 +53,7 @@ john_randall= Student.create({
   blurb: "john's blurb here" #text
   })
 
-keyan_bagheri = Sudents.create({
+keyan_bagheri = Student.create({
   name: "Keyan Bagheri",
   twitter_username: "Empathy4Apathy",
   github_url: "github.com/keyanbagheri",
@@ -62,6 +62,48 @@ keyan_bagheri = Sudents.create({
   blurb: "Full Metal Rubyist",
   })
 
+s_david_montricher= Student.create({
+  name: "David Montricher",
+  github_url: "http://github.com/montricher" ,
+  linkedin_url: "http://linkedin.com/in/davidmontricher",
+  twitter_username: "@deinonino",
+  homepage_url: "http://www.montricher.com",
+  portfolio_url: "http://www.montricher.com/work",
+  blurb: "David's blurb here"
+  })
+
+s_joel_rosenblatt= Student.create({
+  name: "Joel Rosenblatt",
+  github_url: "http://github.com/KLIMTHAUS" ,
+  linkedin_url: "http://linkedin.com/profile/view?id=333503278",
+  twitter_username: "null",
+  homepage_url: "http://www.joelrs.com",
+  portfolio_url: "http://www.joelrs.com",
+  blurb: "Joel's blurb here"
+  })
+
+s_dara_mao= Student.create({
+  name: "Dara Mao",
+  github_url: "http://github.com/daramao" ,
+  linkedin_url: "https://www.linkedin.com/profile/view?id=318128391",
+  twitter_username: "null",
+  homepage_url: "http://www.daramao.com",
+  portfolio_url: "http://www.daramao.com",
+  blurb: "Dara's blurb here"
+  })
+
+s_joe_park= Student.create({
+  name: "Joe Park",
+  github_url: "http://github.com/" ,
+  linkedin_url: "http://www.linkedin.com/profile/view?id=218540582",
+  twitter_username: "null",
+  homepage_url: "http://www.joeinthepark.com",
+  portfolio_url: "http://www.joeinthepark.com",
+  blurb: "Joe's blurb here"
+  })
+
+
+
 
 ## PROJECTS and student associations
 p_our_day= Project.create({
@@ -69,7 +111,7 @@ p_our_day= Project.create({
   blurb: "kid calendar FIX ME" #text
   })
 
-p_our_day.students << s_john_randall
+p_our_day.students << john_randall
 # p_name.students << s_jane_s
 # p_name.students << s_nelson_
 
