@@ -5,7 +5,7 @@ This is a student showcase. We want to do something very similar to this one - h
 * [Github](https://github.com/johntrandall/ga-wdi-string-showcase)
 * [Site](URL TBD)
 
-### Git Workflow Branch
+### Git Workflow
 Please contribute. If you want to be added as a collaborator, please ask (john@johnrandall.com). We are using the git-flow process. (see http://nvie.com/posts/a-successful-git-branching-model/) 
 Please conform:
 
