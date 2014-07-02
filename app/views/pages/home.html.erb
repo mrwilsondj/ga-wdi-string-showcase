@@ -57,7 +57,12 @@
     <h2> students </h1>
 
       <% @students.each do |student| %>
-        <%= debug student %>
+        <h2><%= student.name %></h2>
+        <h3><%= student.blurb %></h3>
+        <p>Homepage: <%= student.homepage_url %></p>
+        <a href=<%=student.linkedin_url%>><%= image_tag("linked-in@2x.png", width: '20px') %></a>
+        <a href=<%=student.github_url%>><%= image_tag("github@2x.png", width: '20px') %></a>
+        <a href=<%=student.twitter_url%>><%= image_tag("twitter@2x.png", width: '20px') %></a>
       <% end %>
   </div>
 
@@ -73,7 +78,7 @@
 
   <footer>
     <p> SPECIAL THANKS TO
-    <p>Our ADJ instructors Omar NAME, Max Cantor, PJ NAME, Keri NAME, and Neil NAME.
+    <p>Our ADJ instructors Omar Delarosa, Max Cantor, PJ Hughes, Keri Toksu, and Neil Patel.
     <p>Our AJ fantastic Teaching Assistants Yaniv Savir, Alex Hint. 
     <p>Students John Randall, Keyan Bagheri, and NAMES for developing this site.
   </footer>
