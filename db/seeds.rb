@@ -1,7 +1,73 @@
-# This file should contain all the record creation needed to seed the database with its default values.
-# The data can then be loaded with the rake db:seed (or created alongside the db with db:setup).
-#
-# Examples:
-#
-#   cities = City.create([{ name: 'Chicago' }, { name: 'Copenhagen' }])
-#   Mayor.create(name: 'Emanuel', city: cities.first)
+# If you want to be added to this website, fork this project, add a student model and project models to the seed file, and submit a pull request. 
+
+# For now, app will use github headshots. This may change.
+
+
+
+
+
+
+
+#### TEMPLATES
+
+# s_first_last= Student.create({
+#   name: "string of full name",
+#   github_url: "" ,
+#   linkedin_url: "",
+#   twitter_url: "",
+#   homepage_url: "",
+#   portfolio_url: "",
+#   blurb: "" #text,
+#   })
+
+# p_name= Project.create({
+#   name: "string of full name",
+#   blurb: "" #text
+#   })
+
+# p_name.students << s_student1
+# p_name.students << s_student2
+# p_name.students << s_student3
+
+
+
+
+
+
+#### DATA
+Student.delete_all
+Project.delete_all
+
+
+## STUDENTS
+
+s_john_randall= Student.create({
+  name: "John T. Randall",
+  github_url: "http://github.com/johntrandall" ,
+  linkedin_url: "http://linkedin.com/in/johntrandall",
+  twitter_username: "@johnrandall",
+  homepage_url: "http://johnrandall.com",
+  portfolio_url: "http://code_portfolio/johnrandall.com",
+  blurb: "john's blurb here" #text
+  })
+
+
+
+## PROJECTS and student associations
+p_our_day= Project.create({
+  name: "OurDay",
+  blurb: "kid calendar FIX ME" #text
+  })
+
+p_our_day.students << s_john_randall
+# p_name.students << s_jane_s
+# p_name.students << s_nelson_
+
+
+
+
+
+
+
+
+
