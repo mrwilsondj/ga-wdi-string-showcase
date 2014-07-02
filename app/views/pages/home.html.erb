@@ -1,17 +1,85 @@
-<h1>Pages#home</h1>
-<p>Find me in app/views/pages/home.html.erb</p>
+<style>
+  header, footer, div {
+    border: 2px black solid;
+    border-radius: 25px;
+    margin: 10px;
+    padding: 20px;
+  }
+</style>
+
+<div id="container">
+
+  <header>
+    <h1>Pages#home</h1>
+    <p>Find me in app/views/pages/home.html.erb</p>
+  </header>
+
+
+  <div>
+    <h1> Hello, world... </h1>
+
+      <div>
+          <h2> WDI is </h2>
+          <p>General Assembly's Web Development Immersive class is a 12-week bootcamp that takes total programming noobs and remakes them into full-stack Ruby on Rails devs. After weeks of training, thousand of lines of code, and gallons of coffee, we're ready for the coding challenges of tomorrow.</p>
+      </div>
+
+      <div>
+        <h2> about something or other </h2>
+        <p> yup
+      </div>
+  </div>
+
+
+  <div>
+    <div>
+      <%= image_tag("code_neo.jpg", width: '150px', alt: "ALT TEXT") %>
+      We know HTML5, CSS3, Ruby, Rails, Javascript, jQuery.js, Underscore.js and Backbone.js and more.
+    </div>
+
+    <div>
+      <%= image_tag("anicllary_technologies", alt: "ALT TEXT") %>
+      From our past careers and the projects we accomplished together, we're team players and well versed in Git and Pivotal Tracker.
+    </div>
+
+    <div>
+      <%= image_tag("colaboration", alt: "ALT TEXT") %>
+      "From day one we built as we learned and have collectively created dozens of unique projects both large and small.""
+    </div>
+
+    <div>
+      From our past careers and the projects we accomplished together, we're team players and well versed in Git and Pivotal Tracker.
+    </div>
+
+    <div>
+      we learned this
+    </div>
+  </div>
 
 
 
-<h1> students </h1>
+  <div id="students">
+    <h2> students </h1>
 
-<% @students.each do |student| %>
-  <%= debug student %>
-<% end %>
+      <% @students.each do |student| %>
+        <%= debug student %>
+      <% end %>
+  </div>
 
 
-<h1> featured projects </h1>
+  <div id="projects">
+    <h2> featured projects </h1>
 
-<% @featured_projects.each do |project| %>
-  <%= debug project %>
-<% end %>
+      <% @featured_projects.each do |project| %>
+        <%= debug project %>
+      <% end %>
+  </div>
+
+
+  <footer>
+    <p> SPECIAL THANKS TO
+    <p>Our ADJ instructors Omar NAME, Max Cantor, PJ NAME, Keri NAME, and Neil NAME.
+    <p>Our AJ fantastic Teaching Assistants Yaniv Savir, Alex Hint. 
+    <p>Students John Randall, Keyan Bagheri, and NAMES for developing this site.
+  </footer>
+
+</div>
